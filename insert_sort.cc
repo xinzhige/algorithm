@@ -1,6 +1,6 @@
 #include <iostream>
 
-void insertionSort(int a[], int begin, int end) {
+void InsertionSort(int a[], int begin, int end) {
   int i, j;
   int temp;
   for (i = begin+1; i <= end; ++i) {
@@ -16,7 +16,7 @@ void insertionSort(int a[], int begin, int end) {
 
 int main(int args, char *argv[]) {
   int a[] = {5, 4, 1, 2, 6};
-  insertionSort(a, 0, 4);
+  InsertionSort(a, 0, 4);
   for (int i = 0; i < 5; ++i) {
     std::cout<<a[i]<<" ";
   }
