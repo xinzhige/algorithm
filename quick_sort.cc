@@ -13,7 +13,7 @@ int Partition(int a[], int low, int high) {
   for (int j = low; j < high; ++j) {
     if (a[j] < pivot) {
       if (j != i) { // avoid swapping the number with itself
-	      Swap(a[j], a[i]);
+        Swap(a[j], a[i]);
       }
       ++i;
     }
